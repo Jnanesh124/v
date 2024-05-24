@@ -195,6 +195,9 @@ async def not_joined(client: Client, message: Message):
         [
             InlineKeyboardButton(text="• ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=f"t.me/ROCKERSBACKUP"),
             InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ •", url=f"t.me/ROCKERSBACKUP"),
+        ],
+        [
+            InlineKeyboardButton(text="Subscribe YouTube channel", url=f"https://youtube.com/@Jnentertainment.?si=jQtbAMXFI2sECql2")
         ]
     ]
     try:
