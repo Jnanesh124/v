@@ -48,11 +48,11 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Join Below 👇 All Channel  After Click “𝐍𝐨𝐰 𝐂𝐥𝐢𝐜𝐤 𝐡𝐞𝐫𝐞” button....!")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "<b>Join Below 👇 All Channel  After Click “𝐍𝐨𝐰 𝐂𝐥𝐢𝐜𝐤 𝐡𝐞𝐫𝐞” button....!</b>")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>𝐊𝐚𝐧𝐧𝐚𝐝𝐚 𝐇𝐃 𝐌𝐨𝐯𝐢𝐞𝐬\n👉 https://t.me/+4Fxg05W56SVkOTY1\n\n𝐊𝐚𝐧𝐧𝐚𝐝𝐚 𝐎𝐧𝐥𝐢𝐧𝐞 𝐌𝐨𝐯𝐢𝐞𝐬\n👉 https://t.me/+5MMPfVCCiAU5MjU1\n\nBollywood Hindi HD MOVIES\n👉 https://t.me/+sIUMbwiAsIo4Mjll\n\nTamil Telugu Malayalam Movies 🎥\n👉 https://t.me/+hJLWDbymVZsyOTk1\n\nHollywood action movie\n👉 https://t.me/+zHXxf4Y5ve03YThl\n\n18+ Baned Movies A Rated movie Only 🔞\n👉 https://t.me/+GwoURlq-hr1hOTc9\n\n𝐓𝐫𝐞𝐧𝐝𝐢𝐧𝐠 𝐌𝐨𝐯𝐢𝐞𝐬 𝐇𝐃\n👉 https://t.me/+EVHwFEL-OWdlMjM1\n\nSex Video porn video\n👉 https://t.me/+P-wgbt_2dlU3MTM1\n\nMovies 🎥\n👉https://t.me/+LpVX0gNfgEM5ZjE1\n\n©️@ROCKERSBACKUP</b>")
-
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
+                                
 #set True if you want to prevent users from forwarding files from bot
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
 
@@ -60,7 +60,7 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" e
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘᴀɪ!!\n\n» ᴍʏ ᴏᴡɴᴇʀ : @codeflix_bots"
+USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘᴀɪ!!\n\n» ᴍʏ ᴏᴡɴᴇʀ : @ROCKERSBACKUP"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(6497757690)
